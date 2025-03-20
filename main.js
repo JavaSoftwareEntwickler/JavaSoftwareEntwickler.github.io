@@ -73,7 +73,7 @@ class CommonHeader extends HTMLElement {
     menuUl.id = 'menu';
     menuUl.className = 'menu';
     const menuItems = [
-      { href: './index.html', text: 'Home' },
+      { href: './', text: 'Home' },
       { href: './single.html', text: 'Chi sono' },
       { href: './contact.html', text: 'Contattami' }
     ];
