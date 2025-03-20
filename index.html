@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio di Max Marchesini</title>
+  <!-- Link a Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Link al tuo CSS personalizzato, se necessario -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .section-title {
+      margin-top: 50px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .card {
+      margin: 15px 0;
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Max Marchesini</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about">Chi Sono</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Progetti</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Competenze</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contatti</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sezione Chi Sono -->
+  <section id="about" class="container">
+    <h2 class="section-title">Chi Sono</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="https://via.placeholder.com/300" alt="Immagine profilo" class="img-fluid rounded-circle">
+      </div>
+      <div class="col-md-6">
+        <p>
+          Ciao, sono Max Marchesini, uno sviluppatore software con 3 anni di esperienza. Mi occupo di sviluppo web e
+          software, con un focus sulla creazione di soluzioni scalabili e performanti. Amo imparare nuove tecnologie e
+          risolvere problemi complessi. Attualmente lavoro da casa e mi dedico a progetti freelance.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sezione Progetti -->
+  <section id="projects" class="container">
+    <h2 class="section-title">I Miei Progetti</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Progetto 1">
+          <div class="card-body">
+            <h5 class="card-title">Progetto 1</h5>
+            <p class="card-text">Descrizione del progetto 1. Tecnologie utilizzate: HTML, CSS, JavaScript.</p>
+            <a href="#" class="btn btn-primary">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Progetto 2">
+          <div class="card-body">
+            <h5 class="card-title">Progetto 2</h5>
+            <p class="card-text">Descrizione del progetto 2. Tecnologie utilizzate: React, Node.js.</p>
+            <a href="#" class="btn btn-primary">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Progetto 3">
+          <div class="card-body">
+            <h5 class="card-title">Progetto 3</h5>
+            <p class="card-text">Descrizione del progetto 3. Tecnologie utilizzate: Python, Django.</p>
+            <a href="#" class="btn btn-primary">Scopri di più</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sezione Competenze -->
+  <section id="skills" class="container">
+    <h2 class="section-title">Competenze</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React, Node.js</li>
+      <li>Python, Django</li>
+      <li>Database: MySQL, MongoDB</li>
+      <li>Git, GitHub</li>
+    </ul>
+  </section>
+
+  <!-- Sezione Contatti -->
+  <section id="contact" class="container">
+    <h2 class="section-title">Contatti</h2>
+    <p>Puoi contattarmi tramite email all'indirizzo: <a
+        href="mailto:max.marchesini@email.com">max.marchesini@email.com</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Max Marchesini. Tutti i diritti riservati.</p>
+  </footer>
+
+  <!-- Scripts Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
