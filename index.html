@@ -1,134 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Soluzioni digitali per tutti. Una delle mie vocazioni: Specialista in Transizione Digitale. Offro la mia consulenza in qualsiasi ambito con l’obiettivo di semplificare i processi aziendali, aiutando così in modo immediato e concreto la crescita del business. Il mio focus principale è la transizione digitale delle aziende, accompagniandole in tutto il processo di digitalizzazione del business, dall’analisi. Siti web, shop online, informatica, software Nuoro, programmatore, Gestionale, sviluppatore Nuoro" />
-  <title>Soluzioni informatiche - Home</title>
-  <link rel="shortcut icon" type="image/jpg" href="./assets/favicon.ico" />
-  <script type="module" src="main.js"></script>
-  <script type="text/javascript" src="utility.js"></script>
-  <common-head></common-head>
-  <link rel="stylesheet" href="style.css" />
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
 
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="my_portfolio">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>my_portfolio</title>
+  <link rel="manifest" href="manifest.json">
 </head>
-
 <body>
-  <common-header></common-header>
-  <div class="hero">
-    <div class="hero__content">
-      <p class="intro-text">"non esistono problemi ma soluzioni.."</p>
-      <h1 class="med-2-text">Soluzioni digitali per tutti</h1>
-      <!-- <a href="" class="button">Cupon 50 %Sconto</a> -->
-    </div>
-  </div>
-  <div class="poster mt-3">
-    <div class="poster__img">
-      <img src="./assets/monitor-grafici.avif" alt="Poster Informatica" />
-    </div>
-    <div class="poster__content">
-      <h3 class="big-text">Shop-Online</h3>
-      <p>
-        Shop-Online &egrave; un&rsquo; applicazione web che ti aiuta ad incrementare
-        le tue vendite. Comprende diverse pagine, il carrello e il pagamento con carta.
-        Shop-Online &egrave; perfettamente adattabile alle tue esigente.
-        Shop-Online viene aggiornato nel tempo per stare sempre sul pezzo ed essere sempre
-        un buon metodo per raggiungere pi&ugrave; clienti possibili.
-      </p>
-      <a href="#" class="button mt-05 is-disabled">Scopri Shop-Online</a>
-    </div>
-  </div>
-
-  <div class="bg-cover mt-3">
-    <div class="bg-cover__title">
-      <h3 class="big-text tw">Soluzioni digitali</h3>
-    </div>
-    <div class="bg-cover__text">
-      <h4 class="tw">Shop-Online</h4>
-      <p>
-        Applicazione web utilizzata per vendere online articoli di vario genere.
-        Se hai anche un negozio fisico è possibile richiedere anche il software
-        gestionale abbinato. Con un unica soluzione hai sottocontrollo le giacenze
-        e gli oridini online.
-      </p>
-      <br />
-
-      <h4 class="tw mt-05">App per cellulari</h4>
-
-      <p>
-        Hai un idea e la vuoi realizzare? Sei nel posto giusto. Contattami per
-        i dettagli. Verrai tutelato con la massima riservatezza.
-      </p>
-      <br />
-
-      <h4 class="tw mt-05">Prenota-Online</h4>
-      <p>
-        Applicazione web per la prenotazione di qualsiasi servizio.
-        Utilizzata da B&B, Hotel, Studi Medici e Dentisti.
-        Utile per gestire sia la vetrina online che tutti gli appuntamenti
-        dei clienti o le prenotazioni.
-        Pratica veloce e semplice da usare può essere adattata a tutte le
-        esigenze.
-      </p>
-      <br />
-    </div>
-  </div>
-  <div class="grid mt-3">
-    <div class="col">
-      <h3 class="big-text">I miei lavori<br /></h3>
-    </div>
-    <div class="col">
-      <p class="mt-2">
-        Alcuni esempi di applicazioni e soluzioni varie presenti sul web.
-      </p>
-    </div>
-  </div>
-
-  <div class="main-carousel"
-    data-flickity='{ "autoPlay": 2000, "pauseAutoPlayOnHover": false, "cellAlign": "left", "contain": true,"wrapAround": true }'>
-    <div class="carousel-cell"><a href="https://www.redentrains.it" target="_blank">Sito Web trenino turistico</a></div>
-    <div class="carousel-cell">testo</div>
-    <div class="carousel-cell">testo</div>
-    <div class="carousel-cell">testo</div>
-    <div class="carousel-cell">testo</div>
-    ...
-  </div>
-  <div class="panel-blue mt-3">
-    <div class="grid">
-      <div class="col panel-blue__dots">
-        <div class="dot"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
-      </div>
-      <div class="col panel-blue__text">
-        <div class="grid">
-          <div class="col">
-            <h3 class="big-text tw">Assistenza</h3>
-          </div>
-          <div class="col">
-            <p class="tw mt-2">
-              Cosa succede dopo che acquisto lo Shop-Online? Lo posso modificare?
-              Si puoi e io ti aiuterò anche in questo.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <common-footer></common-footer>
-  <!-- Jquery-->
-  <!-- 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.pkgd.min.js"
-    integrity="sha512-achKCfKcYJg0u0J7UDJZbtrffUwtTLQMFSn28bDJ1Xl9DWkl/6VDT3LMfVTo09V51hmnjrrOTbtg4rEgg0QArA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script type="text/javascript" charset="UTF-8"
-    src="//cdn.cookie-script.com/s/88af2ce6956ac17485a61351bca61a1b.js"></script>
+  <script src="flutter_bootstrap.js" async></script>
 </body>
-
 </html>
